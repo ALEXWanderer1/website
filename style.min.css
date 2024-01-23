@@ -42,7 +42,7 @@
     --scrollbar-border-color: #FFFFFF !important;
     --container-width: 800px !important;
     --cover-max-height: 290px !important;
-    --cover-gradient: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 80%, transparent 100%) !important
+    --cover-gradient: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), white 90%) !important
 }
 
 .theme-dark .notion-code code {
