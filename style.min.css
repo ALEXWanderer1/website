@@ -309,7 +309,7 @@ body :not(strong) {
 }
 
 .notion-header__cover.has-cover {
-    opacity: .8 !important
+    opacity: .99 !important
 }
 
 .notion-header__cover:after {
