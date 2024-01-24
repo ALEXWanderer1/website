@@ -40,7 +40,7 @@
     --scrollbar-background-color: #FFFFFF !important;
     --scrollbar-thumb-color: #EEEEEE !important;
     --scrollbar-border-color: #FFFFFF !important;
-    --container-width: 100% !important;
+    --container-width: 800px !important;
     --cover-max-height: 290px !important;
     --cover-gradient: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 100%, white 100%) !important
 }
@@ -59,7 +59,7 @@
     --cta-text-color: white !important;
     --color-text-yellow: #FFB71D !important;
     --color-text-gray: #9a9a9a !important;
-    --cover-gradient: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 100%, #161616 100%) !important;
+    --cover-gradient: linear-gradient(to bottom, rgba(22, 22, 22, 0.8), #161616 95%) !important;
     --header-dots: #373737 !important;
     --secondary-bg: #2A2A2A !important;
     --color-bg-default: #161616 !important;
@@ -314,12 +314,12 @@ body :not(strong) {
 
 .notion-header__cover:after {
     content: "";
-    position: relative;
+    position: absolute;
     z-index: 1;
     bottom: 0;
     left: 0;
     background-image: var(--cover-gradient) !important;
-    width: 100% !important;
+    width: 100%;
     height: 100% !important
 }
 
@@ -335,15 +335,14 @@ body :not(strong) {
 
 .notion-header__cover,
 .notion-header__cover.no-cover {
-    width: 100% !important;
     height: var(--cover-max-height) !important;
     max-height: var(--cover-max-height) !important
 }
 
 .notion-header__cover.no-cover {
     background-image: radial-gradient(var(--header-dots) .8px, transparent 0) !important;
-    /*background-size: 26px 26px !important;
-    background-position: -19px -19px !important*/
+    background-size: 26px 26px !important;
+    background-position: -19px -19px !important
 }
 
 .notion-header__title {
