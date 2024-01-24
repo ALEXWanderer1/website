@@ -105,7 +105,7 @@ body :not(strong) {
     max-width: var(--container-width) !important
 }
 
-@media all and (min-width:768px) {
+@media all and (min-width:861px) {
     .super-navbar__theme-toggle {
         border: 1px solid var(--color-border-default) !important;
         border-radius: 50px !important;
@@ -220,7 +220,7 @@ body :not(strong) {
     }
 }
 
-@media all and (max-width:768px) {
+@media all and (max-width:861px) {
     .super-footer {
         border-top: var(--layout-border) solid var(--color-border-default) !important
     }
@@ -335,7 +335,6 @@ body :not(strong) {
 
 .notion-header__cover,
 .notion-header__cover.no-cover {
-    width: 100%;
     height: var(--cover-max-height) !important;
     max-height: var(--cover-max-height) !important
 }
