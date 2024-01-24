@@ -42,7 +42,7 @@
     --scrollbar-border-color: #FFFFFF !important;
     --container-width: 100% !important;
     --cover-max-height: 290px !important;
-    --cover-gradient: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1) 60%, white 100%) !important
+    --cover-gradient: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.8) 60%, white 100%) !important
 }
 
 .theme-dark .notion-code code {
@@ -126,8 +126,8 @@ body :not(strong) {
     .super-footer,
     .super-navbar {
         background: 0 0 !important;
-        max-width: 12vw !important;
-        min-width: 5vw !important;
+        max-width: 5vw !important;
+        min-width: 2vw !important;
         height: 100vh !important;
         position: sticky !important
     }
