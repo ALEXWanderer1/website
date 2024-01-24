@@ -41,8 +41,8 @@
     --scrollbar-thumb-color: #EEEEEE !important;
     --scrollbar-border-color: #FFFFFF !important;
     --container-width: 100% !important;
-    --cover-max-height: 290px !important;
-    --cover-gradient: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3) 70%, white 100%) !important
+    --cover-max-height: 290px !important
+    /* --cover-gradient: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3) 70%, white 100%) !important*/
 }
 
 .theme-dark .notion-code code {
@@ -59,7 +59,7 @@
     --cta-text-color: white !important;
     --color-text-yellow: #FFB71D !important;
     --color-text-gray: #9a9a9a !important;
-    --cover-gradient: linear-gradient(to bottom, rgba(22, 22, 22, 0), #161616 90%) !important;
+    /*--cover-gradient: linear-gradient(to bottom, rgba(22, 22, 22, 0), #161616 90%) !important;*/
     --header-dots: #373737 !important;
     --secondary-bg: #2A2A2A !important;
     --color-bg-default: #161616 !important;
