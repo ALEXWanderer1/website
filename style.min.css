@@ -126,8 +126,8 @@ body :not(strong) {
     .super-footer,
     .super-navbar {
         background: 0 0 !important;
-        max-width: 24vw !important;
-        min-width: 12vw !important;
+        max-width: 12vw !important;
+        min-width: 5vw !important;
         height: 100vh !important;
         position: sticky !important
     }
