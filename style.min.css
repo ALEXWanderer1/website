@@ -59,7 +59,7 @@
     --cta-text-color: white !important;
     --color-text-yellow: #FFB71D !important;
     --color-text-gray: #9a9a9a !important;
-    --cover-gradient: linear-gradient(to bottom, rgba(22, 22, 22, 0), #161616 90%) !important;
+    --cover-gradient: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 100%, #161616 100%) !important;
     --header-dots: #373737 !important;
     --secondary-bg: #2A2A2A !important;
     --color-bg-default: #161616 !important;
@@ -335,7 +335,7 @@ body :not(strong) {
 
 .notion-header__cover,
 .notion-header__cover.no-cover {
-    width: 100%;
+    width: 100% !important;
     height: var(--cover-max-height) !important;
     max-height: var(--cover-max-height) !important
 }
